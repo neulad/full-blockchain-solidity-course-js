@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "@aave/protocol-v2": "^1.0.1",
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@openzeppelin/contracts": "^4.7.3",
+    "dotenv": "^16.0.2",
+    "hardhat": "^2.10.2",
+    "hardhat-deploy": "^0.11.12"
+  },
+  "overrides": {
+    "@nomicfoundation/hardhat-toolbox": {
+      "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers"
+    }
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.4.1"
+  }
+}

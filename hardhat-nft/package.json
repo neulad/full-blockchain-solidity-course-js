@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "hardhat": "^2.11.2"
+  },
+  "devDependencies": {
+    "@chainlink/contracts": "^0.5.1",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@openzeppelin/contracts": "^4.7.3",
+    "base64-sol": "^1.1.0",
+    "dotenv": "^16.0.3",
+    "hardhat-deploy": "^0.11.15"
+  },
+  "overrides": {
+    "@nomicfoundation/hardhat-toolbox": {
+      "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers"
+    }
+  }
+}
